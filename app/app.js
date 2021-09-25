@@ -1,8 +1,11 @@
 const express = require('express');
 const app = express();
   
-const boardRouter = require('./router/board');
-app.use('/board', boardRouter);
+//ejs
+app.set('view engine','ejs'); 
+app.use(express.static(__dirname + '/public'));
+const boardRouter = require('./router/boards');
+app.use('/boards', boardRouter);
 
 app.get('/', function(req, res){
     res.send('2021 Mirim Tech Talk Hackathon');
