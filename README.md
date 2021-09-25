@@ -18,7 +18,7 @@
 **URL** /boards  
 **METHOD** post  
 
-#### < READ >**  
+#### < READ >  
 **URL** /boards  
 **METHOD** get  
 
