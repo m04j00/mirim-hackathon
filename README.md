@@ -14,21 +14,21 @@
 6. url > http://localhost:3000
 
 ## API 
-**< CREATE >**  
-URL /boards  
-METHOD post  
+#### < CREATE >  
+**URL** /boards  
+**METHOD** post  
 
-**< READ >**  
-URL /boards  
-METHOD get  
+#### < READ >**  
+**URL** /boards  
+**METHOD** get  
 
-**< UPDATE >**  
-URL  /boards/:id  
-METHOD  post  
-PARAMETER  id  
-QUERY  title, destription  
+#### < UPDATE >  
+**URL**  /boards/:id  
+**METHOD**  post  
+**PARAMETER**  id  
+**QUERY**  title, destription  
 
-**< DELETE >**  
-URL  /boards/:id  
-METHOD  delete  
-PARAMETER  id  
+#### < DELETE >  
+**URL**  /boards/:id  
+**METHOD**  delete  
+**PARAMETER**  id  
