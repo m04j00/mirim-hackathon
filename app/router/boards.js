@@ -50,4 +50,14 @@ router.post('/:id', function(req, res){
         console.log(result);
     });
 })
+router.delete('/:id', function(req, res){
+    let id = req.params.id; // 파라미터로 받음 id값, 게시글의 고유 번호이다.
+
+    let sql = 'DELETE from board where id = ?'; // delete sql 구문
+    connection.query(sql, id, function (err, result) {
+        if(err) console.log(err);
+        res.send('삭제되었습니다.');
+        console.log(result);
+    });
+})
 module.exports = router;
