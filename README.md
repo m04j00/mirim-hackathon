@@ -1,5 +1,5 @@
 # Mirim Tech Talk Hackathon
-
+[블로그 | 코드 설명](https://developerm.tistory.com/163)
 ## API 환경구성
 - Node.js   14.17.3
 - MySQL   14.14 Distrib 5.7.7-rc
